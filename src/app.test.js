@@ -22,6 +22,5 @@ test('allows user to fill and submit the form', () => {
   const submitButton = screen.getByRole('button', { name: /submit/i });
   fireEvent.click(submitButton);
 
-  // Replace this with actual feedback behavior if available
-  // Example: expect(screen.getByText(/booking confirmed/i)).toBeInTheDocument();
+
 });
